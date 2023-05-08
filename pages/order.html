@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення</title>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        header{
+            background-image: linear-gradient(rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),url(../img/фото\ замовлення.jfif);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+              <div class="navbar__left">
+                <div class="logo__div"><a href="#"><img src="../img/лого2.jpg"style=" shape-outside: circle(50%);margin:0 25px 0 0;border-radius:50px" class="logo"></a></div>
+            </div>
+          <div class="navbar__center"> 
+                  <div class="link_header_index"><a href="#" class="link">Головна</a></div>
+                  <div  class=" link_header_index"><a href="./about.html" class="link">Про нас</a></div>
+                  <div  class="link_header_index"><a href="./caffeine.html" class="link">Про кофеїн</a></div>
+                  <div class="link_header_index"><a href="../poster.html" class="link">Афіша</a></div>
+          </div>
+                <div class="navbar__right">
+                  <div class="div_button"><h2 class="button button_index"><a style="color:rgb(255, 127, 142) ;" href="../poster.html">ЗАБРОНЮВАТИ</a></h2></div>
+                </div>
+           </div>
+        <h1>Оформлення онлайн замовлення</h1>
+    </header>
+    <form action="#" method="get" class="deco">
+        <div class="form-decoration-left"></div>
+        <div class="form-decoration-right"></div>
+        <div class="circle"></div>
+        <div class="form-inner3">
+            <legend><b>Замовлення</b></legend>
+                <div class="container2">
+                    <div class="item-3">
+                        <div class="second">
+                            <label for="Сорт кави">Сорт кави</label>
+                            <select name="Сорт кави" id="Сорт кави">
+                                <option value="Кава сорт 1">Капучинно</option> 
+                                <option value="Кава сорт 2" selected>Кава мокко</option>
+                                <option value="Кава сорт 3">Домашня суміж</option> 
+                                <option value="Кава сорт 4">Чай</option>
+                            </select>
+                        </div>
+                        <div class="second">
+                            <label for="Тип кави">Тип кави</label><br>
+                            <input type="radio" id="1" name="1" value="Зернова">
+                            <label for="1">Зернова</label><br>
+                            <input checked type="radio" id="2" name="1" value="Мелена" >
+                            <label for="2">Мелена</label>
+                        </div>
+                    </div>
+                    <div class="item-4">
+                        <div class="second">
+                            <label for="pak">Кількість пакетів</label>
+                            <input id="pak" type="number" name="pak" step="1" min="1" max="10">
+                        </div>
+                        <div class="second">
+                            <label for="Додаткові опції">Додаткові опції</label><br>
+                            <input type="checkbox" name="1" value="1">Подарункова упаковка<br>
+                            <input type="checkbox" name="2" value="2">Брендована чашка<br>
+                            <input type="checkbox" name="3" value="3">Каталог продукції
+                        </div>
+                    </div>
+                </div>
+                <legend><b>Контактна інформація</b></legend>
+                <div class="container2">
+                    <div class="item-3">
+                        <div class="second">
+                            <label for="firstName">Прізвище</label>
+                            <input id="firstName" type="text" name="Прізвище" required>
+                        </div>
+                        <div class="second">
+                            <label for="name">E-mail</label>
+                            <input id="E-mail" type="email" placeholder="qwerty123@gmail.com">
+                        </div>
+                    </div>
+                    <div class="item-4">
+                        <div class="second">
+                            <label for="Name">Ім'я</label>
+                            <input id="Name" type="text" name="Ім'я" required>
+                        </div>
+                        <div class="second">
+                            <label for="name">Телефон</label>
+                            <input type="tel" name="Телефон" placeholder="+380-50-154-65-14" required>
+                        </div>
+                    </div>
+                </div>
+                <legend><b>Інформація по доставці</b></legend>
+                <div class="container2">
+                    <div class="item-3">
+                        <div class="second">
+                            <label for="name">Місто</label>
+                            <input type="text" name="Місто">
+                        </div>
+                        <div class="second">
+                            <label id="adress" for="name">Адреса</label>
+                            <input id="adress" type="text" name="Адреса">
+                        </div>
+                    </div>      
+                    <div class="item-4">
+                        <div class="second">
+                            <label for="nam">Почтовий індекс</label>
+                            <input id="nam" type="number" name="Почтовий індекс">
+                        </div>
+                    </div>
+                </div>
+                <input id="5" type="checkbox" value="" name="">Я даю згоду на обробку моїх персональних данних
+                <input class="b_s" type="submit" value="Надіслати">
+        </div>
+    </form>
+    <footer class="muted">
+        <div class="container">
+            <h2 class="footer_h2">Контакти </h2>
+        <p class="footer_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          <div class="footer_container">
+            <div class="footer__item">
+                <div><h3 class="h3_menu footer_h3">Про нас</h3></div>
+                <div><p class="footer_p">Дізнайтеся більш про <a href= "./about.html" target="_blank" title="Дізнайся про нашу мету"><span class="topic">місію кафе</span></a></p></div>
+                <div><p class="footer_p">Прочитайте все про <a href="./caffeine.html" target="_blank" title="Дізнайся про кофеїн"><span class="topic">кофеїн</span></a></p></div>
+            </div>
+            <div class="footer__item">
+              <div><h2 class="h2_menu footer_h2">Ми на зв'язку</h2></div>
+            <div class="footer_contact">
+                <a href="Instagram:https://www.instagram.com/e.l.v.i.n.a_18/" target="_blank" title="Instagram."><img src="../img/icons/instagram.jfif" width="50" height="50" alt="сторінка"></a>
+                <a href="Facebook:https://www.facebook.com/elvina.us.5/" target="_blank"><img src="../img/icons/фейсбук.png" width="50" height="50" alt="сторінка фейсбук"></a>
+                <a href="mailto:cafe@gmail.com?subject=Відвідувачі"target="_blank"><img src="../img/icons/пошта.png" width="50" height="40" alt="Написати лист" ></a>
+               <a href="skype:cafe?chat" target="_blank"><img src="../img/icons/скайп.png" width="50" height="50" alt="написати повідомлення"></a>
+                <a href="skype:cafe?call"><img src="../img/icons/скайп_подзвонити.jfif" width="50" height="50" alt="подзвонити"></a>
+                <a href="tel:+380504271893"><img src="../img/icons/телефон.png" width="50" height="50" alt="Фото"></a>
+              </div>     
+            </div>
+        </div>
+</div>
+    </footer>   
+</body>
+</html>
